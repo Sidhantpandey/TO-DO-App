@@ -627,9 +627,22 @@ body {
 
 }
 
+.image {
+    margin-top: 350px;
+
+}
+
+.image img {
+    height: 400px;
+    width: 99vw;
+
+
+}
+
 
 
 #add-btn {
+    margin-top:20px;
     border: none;
     color: rgb(75, 75, 75);
     border-radius: 22px;
@@ -641,7 +654,7 @@ body {
 
 #add-btn:hover{
     background-color: rgb(5, 93, 11);
-    transition: 0.4s;
+    transition: 0.01s;
     box-shadow: 3px 3px 12px rgb(49, 49, 49);
 }
 #wrap {
@@ -663,9 +676,6 @@ body {
     margin-top:20px;
 
 }
-#add-btn{
-    margin-top:20px;
-}
 
 
 #wrap input:hover {
@@ -685,9 +695,15 @@ body {
 
 }
 
+#list-container{
+    margin-top:22px;
+}
+
 ul li {
     list-style: none;
     font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
     padding: 12px 8px 12px 50px;
     cursor: pointer;
     user-select: none;
@@ -719,8 +735,8 @@ ul li.checked::before {
 
 ul li span {
     position: absolute;
-    right: 0;
-    top: 5px;
+    right: 0px;
+    top: 3px;
     width: 40px;
     height: 40px;
     color: black;
