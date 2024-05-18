@@ -668,10 +668,9 @@ body {
 #wrap input {
     background-color: white;
     border: none;
-    
     border-bottom: 2px solid rgb(171, 170, 170);
     color: rgb(49, 49, 49);
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     padding: 12px 12px;
     margin-top:20px;

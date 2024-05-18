@@ -18,7 +18,7 @@ function addtask() {
         span.innerHTML = "&#10005";
         li.appendChild(span)
     }
-    inputbox.value = "  ";
+    inputbox.value = "";
     savedata();
 }
 
